@@ -2,6 +2,7 @@
 dependency1.from=ProfessorSycamore
 dependency1.to=ProfessorSycamoreEffect
 dependency1.type=UsesDependency
+<<<<<<< HEAD
 dependency2.from=HerbalEnergy
 dependency2.to=HerbalEnergyEffect
 dependency2.type=UsesDependency
@@ -19,19 +20,40 @@ package.editor.x=-8
 package.editor.y=-8
 package.numDependencies=4
 package.numTargets=10
+=======
+dependency2.from=FloatStone
+dependency2.to=FloatStoneEffect
+dependency2.type=UsesDependency
+objectbench.height=100
+objectbench.width=686
+package.editor.height=400
+package.editor.width=560
+package.editor.x=793
+package.editor.y=189
+package.numDependencies=2
+package.numTargets=6
+>>>>>>> 1db5d2a7a8a3aca845e5de117f35b36e9edcb27a
 package.showExtends=true
 package.showUses=true
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
+<<<<<<< HEAD
 target1.editor.x=583
 target1.editor.y=158
 target1.height=50
 target1.name=NightMarchJoltikPHFAttackEffect
+=======
+target1.editor.x=683
+target1.editor.y=200
+target1.height=50
+target1.name=FloatStone
+>>>>>>> 1db5d2a7a8a3aca845e5de117f35b36e9edcb27a
 target1.naviview.expanded=true
 target1.showInterface=false
 target1.type=ClassTarget
 target1.typeParameters=
+<<<<<<< HEAD
 target1.width=210
 target1.x=440
 target1.y=300
@@ -48,6 +70,11 @@ target10.typeParameters=
 target10.width=130
 target10.x=420
 target10.y=160
+=======
+target1.width=100
+target1.x=10
+target1.y=130
+>>>>>>> 1db5d2a7a8a3aca845e5de117f35b36e9edcb27a
 target2.editor.height=700
 target2.editor.width=900
 target2.editor.x=636
@@ -58,6 +85,7 @@ target2.naviview.expanded=true
 target2.showInterface=false
 target2.type=ClassTarget
 target2.typeParameters=
+<<<<<<< HEAD
 target2.width=170
 target2.x=160
 target2.y=110
@@ -67,10 +95,22 @@ target3.editor.x=32
 target3.editor.y=12
 target3.height=50
 target3.name=FloatStone
+=======
+target2.width=140
+target2.x=70
+target2.y=10
+target3.editor.height=700
+target3.editor.width=900
+target3.editor.x=762
+target3.editor.y=102
+target3.height=50
+target3.name=GroudonEXPRC
+>>>>>>> 1db5d2a7a8a3aca845e5de117f35b36e9edcb27a
 target3.naviview.expanded=true
 target3.showInterface=false
 target3.type=ClassTarget
 target3.typeParameters=
+<<<<<<< HEAD
 target3.width=80
 target3.x=310
 target3.y=10
@@ -80,10 +120,22 @@ target4.editor.x=32
 target4.editor.y=12
 target4.height=50
 target4.name=FloatStoneEffect
+=======
+target3.width=130
+target3.x=10
+target3.y=190
+target4.editor.height=700
+target4.editor.width=900
+target4.editor.x=636
+target4.editor.y=120
+target4.height=50
+target4.name=ProfessorSycamoreEffect
+>>>>>>> 1db5d2a7a8a3aca845e5de117f35b36e9edcb27a
 target4.naviview.expanded=true
 target4.showInterface=false
 target4.type=ClassTarget
 target4.typeParameters=
+<<<<<<< HEAD
 target4.width=120
 target4.x=400
 target4.y=10
@@ -93,10 +145,22 @@ target5.editor.x=757
 target5.editor.y=182
 target5.height=50
 target5.name=HerbalEnergy
+=======
+target4.width=170
+target4.x=70
+target4.y=70
+target5.editor.height=700
+target5.editor.width=900
+target5.editor.x=614
+target5.editor.y=109
+target5.height=50
+target5.name=RipClawGroudonEXAttack
+>>>>>>> 1db5d2a7a8a3aca845e5de117f35b36e9edcb27a
 target5.naviview.expanded=true
 target5.showInterface=false
 target5.type=ClassTarget
 target5.typeParameters=
+<<<<<<< HEAD
 target5.width=100
 target5.x=450
 target5.y=70
@@ -106,10 +170,22 @@ target6.editor.x=-8
 target6.editor.y=-8
 target6.height=50
 target6.name=JoltikPHF
+=======
+target5.width=200
+target5.x=10
+target5.y=260
+target6.editor.height=700
+target6.editor.width=900
+target6.editor.x=612
+target6.editor.y=28
+target6.height=50
+target6.name=FloatStoneEffect
+>>>>>>> 1db5d2a7a8a3aca845e5de117f35b36e9edcb27a
 target6.naviview.expanded=true
 target6.showInterface=false
 target6.type=ClassTarget
 target6.typeParameters=
+<<<<<<< HEAD
 target6.width=80
 target6.x=70
 target6.y=290
@@ -151,3 +227,8 @@ target9.typeParameters=
 target9.width=100
 target9.x=10
 target9.y=150
+=======
+target6.width=140
+target6.x=120
+target6.y=130
+>>>>>>> 1db5d2a7a8a3aca845e5de117f35b36e9edcb27a
