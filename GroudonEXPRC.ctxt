@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=GroudonEXPRC()
+comment1.params=attachedPokes
+comment1.target=GroudonEXPRC(java.util.ArrayList)
+comment2.params=attachedPokes\ ts
+comment2.target=GroudonEXPRC(java.util.ArrayList,\ java.util.ArrayList)
+comment3.params=attachedPokes\ ts\ attachedE
+comment3.target=GroudonEXPRC(java.util.ArrayList,\ java.util.ArrayList,\ java.util.ArrayList)
+numComments=4

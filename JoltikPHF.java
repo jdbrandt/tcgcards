@@ -28,4 +28,6 @@ public class JoltikPHF extends BasicPokemon
          super(30, "Joltik PHF", new ArrayList<Attribute>(Arrays.asList(new NightMarchJoltikPHFAttack())), new ArrayList<Type>(Arrays.asList(Type.L)), 1, Type.F, Type.M, attachedPokemon, attachedTools, attachedEnergy);
     }
     
+    
+
 }

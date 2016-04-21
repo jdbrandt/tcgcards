@@ -1,8 +1,8 @@
 
 
-public class NightMarchJoltikPHFAttackEffect extends AttackEffect
+public class NightMarchPumpkabooPHFAttackEffect extends AttackEffect
 {
-    public NightMarchJoltikPHFAttackEffect()
+    public NightMarchPumpkabooPHFAttackEffect()
     {
         super();
     }

@@ -1,10 +1,10 @@
 import java.util.*;
 
-public class RipClawGroudonEXAttack
+public class RipClawGroudonEXPRCAttack extends Attack
 {
     ArrayList<Type> requirements;
     
-    public RipClawGroudonEXAttack()
+    public RipClawGroudonEXPRCAttack()
     {
         super();
         requirements.add(Type.F);
@@ -14,7 +14,7 @@ public class RipClawGroudonEXAttack
     
     public Effect getEffect()
     {
-        return new RipClawGroudonEXAttackEffect();
+        return new RipClawGroudonEXPRCAttackEffect();
     }
     
     
