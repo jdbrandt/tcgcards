@@ -9,10 +9,20 @@ public class HerbalEnergyEffect extends SpecialEnergyEffect
     }
     
     //called when herbalenergy is put into play
-    public void activate(Object o)
+    public void activate(Game g, Pokemon p)
     {
-        Pokemon p = (Pokemon) o;
         p.setCurrentHP(p.getCurrentHP()+20);
     }
+    
+    public void remove(Game g, Pokemon p)
+    {
+        p.setCurrentHP(p.getCurrentHP()-20);
+    }
+    
+    public void activate(Game g)
+    {
+        throw new UnsupportedOperationException();
+    }
+    
 }
         

@@ -8,10 +8,10 @@ public class ProfessorSycamoreEffect extends SupporterEffect
         super();
     }
     
-    public void activate(Object o)
+    public void activate(Game g)
     {
 
-        Player p = (Player) o;
+        Player p = g.getCurrentPlayer();
 
         p.getDiscard().addAll(p.getHand()); //adds hand to discard
         p.setHand(new ArrayList<Card>()); //resets hand

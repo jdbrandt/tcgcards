@@ -8,10 +8,9 @@ public class FloatStoneEffect extends ToolEffect
         super();
     }
     
-    public void activate(Object o)
+    public void activate(Game g, Pokemon p)
     {
        
-        Pokemon p = (Pokemon) o;
         
         previousRetreatCost = p.getRetreatCost();
         
@@ -26,4 +25,8 @@ public class FloatStoneEffect extends ToolEffect
         p.setRetreatCost(previousRetreatCost);
     }
     
+    public void activate(Game g)
+    {
+        throw new UnsupportedOperationException();
+    }
 }
