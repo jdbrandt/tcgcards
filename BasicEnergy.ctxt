@@ -2,7 +2,5 @@
 comment0.params=t
 comment0.target=BasicEnergy(Type)
 comment1.params=
-comment1.target=java.util.ArrayList\ getType()
-comment2.params=
-comment2.target=Effect\ getEffect()
-numComments=3
+comment1.target=Effect\ getEffect()
+numComments=2
