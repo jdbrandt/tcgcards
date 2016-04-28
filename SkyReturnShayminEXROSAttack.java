@@ -7,6 +7,7 @@ public class SkyReturnShayminEXROSAttack extends Attack
         super();
         requirements.add(Type.C);
         requirements.add(Type.C);
+        cloneOriginal();
     }
     
     public Effect getEffect()

@@ -6,6 +6,7 @@ public class CursedDropLampentPHFAttack extends Attack
     {
         super();
         requirements.add(Type.P);
+        cloneOriginal();
     }
     
     public Effect getEffect()

@@ -8,6 +8,7 @@ public class NightMarchPumpkabooPHFAttack extends Attack
         requirements.add(Type.C);
         requirements.add(Type.C);
         requirements.add(Type.C);
+        cloneOriginal();
     }
     
     public Effect getEffect()

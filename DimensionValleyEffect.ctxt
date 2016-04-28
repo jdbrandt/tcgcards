@@ -3,4 +3,6 @@ comment0.params=
 comment0.target=DimensionValleyEffect()
 comment1.params=g
 comment1.target=void\ activate(Game)
-numComments=2
+comment2.params=g
+comment2.target=void\ deactivate(Game)
+numComments=3

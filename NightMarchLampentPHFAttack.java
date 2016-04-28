@@ -8,6 +8,7 @@ public class NightMarchLampentPHFAttack extends Attack
         requirements.add(Type.P);
         requirements.add(Type.C);
         requirements.add(Type.C);
+        cloneOriginal();
     }
     
     public Effect getEffect()
