@@ -2,30 +2,29 @@
 
 public class XerosicEffect extends SupporterEffect
 {
-    public Xerosic()
+    public XerosicEffect()
     {
         super();
     }
     
     public void activate(Game g)
     {
-        Player current = g.getCurrentPlayer()
+        Player current = g.getCurrentPlayer();
         Player opponent = g.getNonCurrentPlayer();
-        Card cardToDiscard = current.chooseToolOrSpecialEnergyToDiscard(g);
-        if (cardToDiscard instanceof Tool)
+        
+        Card[] cards = current.chooseToolOrSpecialEnergyToDiscard(g);
+        
+        Pokemon p = (Pokemon) cards[0];
+        Card cardToRemove = cards[1];
+        
+        if (p.getTools().contains(cardToRemove))
         {
-            if (current.getActive().getTools().contains(cardToDiscard))
-            {
-                current.getActive().getTools().remove(cardToDiscard);
-            }
-            else if (opponent.getActive().getTools().contains(CardToDiscard))
-            {
-                opponent.getActive().getTools().remove(cardToDiscard);
-            }
-            for (Pokemon p : current.getBench())
-            {
-                if (p.
-            
-            
-            
-            
+            p.getTools().remove(cardToRemove);
+        }
+        else
+        {
+            p.getEnergy().remove(cardToRemove);
+        }
+    }
+}
+        
