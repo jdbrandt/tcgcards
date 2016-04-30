@@ -9,7 +9,7 @@ public class BattleCompressorEffect extends ItemEffect
     
     public void activate(Game g)
     {
-        Card[] cards = g.getCurrentPlayer().chooseCardsToDiscardFromDeck(3);
+        Card[] cards = g.getCurrentPlayer().chooseCardsToDiscardFromDeck(g, 3);
         
         for (int i = 0; i < 3; i++)
         {

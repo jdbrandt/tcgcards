@@ -13,7 +13,7 @@ public class RipClawGroudonEXPRCAttackEffect extends AttackEffect
         //flip a coin, if heads...
         if (Math.random() > 0.5)
         {
-            ArrayList<Energy> eList = g.getNonCurrentPlayer().getActive().getAttachedEnergy();
+            ArrayList<Energy> eList = g.getNonCurrentPlayer().getActive().getEnergy();
             if (eList.size() == 1)
             {
                 g.getNonCurrentPlayer().getActive().removeEnergy(eList.get(0));

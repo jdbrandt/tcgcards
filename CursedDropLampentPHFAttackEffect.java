@@ -9,7 +9,7 @@ public class CursedDropLampentPHFAttackEffect extends AttackEffect
     
     public void activate(Game g)
     {
-       g.getCurrentPlayer().dropNDamageCounters(3);
+       g.getCurrentPlayer().dropNDamageCounters(g, 3);
     }
     
     public int getDamage(Game g)
