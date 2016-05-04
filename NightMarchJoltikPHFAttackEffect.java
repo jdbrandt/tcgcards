@@ -1,23 +1,21 @@
-
-
 public class NightMarchJoltikPHFAttackEffect extends AttackEffect
 {
     public NightMarchJoltikPHFAttackEffect()
     {
         super();
     }
-    
+
     public void activate(Game g)
     {
-       doActiveDamage(g);
+        doActiveDamage(g);
     }
-    
+
     public int getDamage(Game g)
     {
         Player p = g.getCurrentPlayer();
-        
+
         int numNightMarchersInDiscard = 0;
-        
+
         for (Card c : p.getDiscard())
         {
             if (c instanceof JoltikPHF || c instanceof PumpkabooPHF || c instanceof LampentPHF)
@@ -25,14 +23,8 @@ public class NightMarchJoltikPHFAttackEffect extends AttackEffect
                 numNightMarchersInDiscard++;
             }
         }
-        
+
         return numNightMarchersInDiscard*20;
     }
-    
+
 }
-        
-    
-    
-   
-        
-        

@@ -1,5 +1,3 @@
-
-
 public class NightMarchJoltikPHFAttack extends Attack
 {
     public NightMarchJoltikPHFAttack()
@@ -9,11 +7,13 @@ public class NightMarchJoltikPHFAttack extends Attack
         requirements.add(Type.C);
         cloneOriginal();
     }
-    
+
     public Effect getEffect()
     {
         return new NightMarchJoltikPHFAttackEffect();
     }
+
+        
     
+
 }
-    
