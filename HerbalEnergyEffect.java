@@ -14,9 +14,8 @@ public class HerbalEnergyEffect extends SpecialEnergyEffect
         p.setCurrentHP(p.getCurrentHP()+20);
     }
     
-    public void remove(Game g, Pokemon p)
+    public void deactivate(Game g, Pokemon p)
     {
-        p.setCurrentHP(p.getCurrentHP()-20);
     }
     
     public void activate(Game g)
