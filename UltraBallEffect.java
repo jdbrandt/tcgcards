@@ -10,6 +10,8 @@ public class UltraBallEffect extends ItemEffect
     {
         Player current = g.getCurrentPlayer();
         
+        current.setCanKnowDeck(true);
+        
         Card[] toDiscard = current.getCardsToUltraBallAway(g);
         
         for (Card c: toDiscard)
@@ -22,6 +24,8 @@ public class UltraBallEffect extends ItemEffect
         
         current.deck.remove(mon);
         current.hand.add(mon);
+        
+        current.setCanKnowDeck(false);
     }
 }
         
