@@ -12,7 +12,7 @@ public class XerosicEffect extends SupporterEffect
         Player current = g.getCurrentPlayer();
         Player opponent = g.getNonCurrentPlayer();
         
-        Card[] cards = current.chooseToolOrSpecialEnergyToDiscard(g);
+        Card[] cards = current.chooseXerosic(g);
         
         Pokemon p = (Pokemon) cards[0];
         Card cardToRemove = cards[1];

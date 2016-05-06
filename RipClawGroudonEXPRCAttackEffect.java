@@ -20,7 +20,7 @@ public class RipClawGroudonEXPRCAttackEffect extends AttackEffect
             }
             if (eList.size() > 1)
             {
-                Energy energyToRemove = g.getCurrentPlayer().chooseEnergyToDiscardFromActive(g);
+                Energy energyToRemove = g.getCurrentPlayer().chooseTFG(g);
                 g.getNonCurrentPlayer().getActive().removeEnergy(energyToRemove);
             }
         }

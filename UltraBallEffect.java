@@ -12,7 +12,7 @@ public class UltraBallEffect extends ItemEffect
         
         current.setCanKnowDeck(true);
         
-        Card[] toDiscard = current.getCardsToUltraBallAway(g);
+        Card[] toDiscard = current.chooseUltraBallAway(g);
         
         for (Card c: toDiscard)
         {
@@ -20,7 +20,7 @@ public class UltraBallEffect extends ItemEffect
             current.discard.add(c);
         }
         
-        Pokemon mon = current.getPokemonFromDeck(g);
+        Pokemon mon = current.chooseUltraBall(g);
         
         current.deck.remove(mon);
         current.hand.add(mon);

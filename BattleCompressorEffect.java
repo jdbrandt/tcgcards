@@ -12,7 +12,7 @@ public class BattleCompressorEffect extends ItemEffect
 
         g.getCurrentPlayer().setCanKnowDeck(true);
 
-        Card[] cards = g.getCurrentPlayer().chooseCardsToDiscardFromDeck(g, 3);
+        Card[] cards = g.getCurrentPlayer().chooseBattleCompressor(g, 3);
 
         
         for (int i = 0; i < 3; i++)

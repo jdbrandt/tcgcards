@@ -9,7 +9,7 @@ public class TeammatesEffect extends SupporterEffect
     public void activate(Game g)
     {
         g.getCurrentPlayer().setCanKnowDeck(true);
-        Card[] cards = g.getCurrentPlayer().chooseAnyTwoCardsFromDeck(g);
+        Card[] cards = g.getCurrentPlayer().chooseTeammates(g);
         for (int i = 0; i < 2; i++)
         {
             g.getCurrentPlayer().getHand().add(g.getCurrentPlayer().getDeck().remove(i));

@@ -26,7 +26,7 @@ public class TrainersMailEffect extends ItemEffect
         
         if (isTrainer)
         {
-            Card card = current.chooseTrainerFromCards(g, top4);
+            Card card = current.chooseTrainersMail(g, top4);
             current.deck.remove(card);
             current.hand.add(card);
         }

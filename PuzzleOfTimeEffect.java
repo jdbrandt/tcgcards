@@ -23,7 +23,7 @@ public class PuzzleOfTimeEffect extends ItemEffect
 
         if (shouldPlayTwo)
         {
-            Card[] cards = current.chooseCardsToRetrieveFromDiscard(g, 2);
+            Card[] cards = current.choosePuzzle(g, 2);
             for (int i = 0; i < 2; i++)
             {
                 current.getHand().add(current.getDiscard().remove(i));
@@ -31,7 +31,7 @@ public class PuzzleOfTimeEffect extends ItemEffect
         }
         else
         {
-            Card[] cards = current.sortTopCardsOfDeck(g, (ArrayList)current.getDeck().subList(0, 3));
+            Card[] cards = current.sortPokedex(g, (ArrayList)current.getDeck().subList(0, 3));
             current.getDeck().removeAll(current.getDeck().subList(0, 3));
             for (int i = 0; i < 3; i++)
             {

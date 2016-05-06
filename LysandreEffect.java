@@ -8,7 +8,7 @@ public class LysandreEffect extends SupporterEffect
     
     public void activate(Game g)
     {
-        Pokemon newActivePokemon = g.getCurrentPlayer().choosePokemonToGust(g);
+        Pokemon newActivePokemon = g.getCurrentPlayer().chooseToGust(g);
         Pokemon oldActivePokemon = g.getNonCurrentPlayer().getActive();
         
         g.getNonCurrentPlayer().setActive(newActivePokemon);

@@ -14,7 +14,7 @@ public class AcroBikeEffect extends ItemEffect
         
         current.deck.removeAll(topCards);
         
-        Card toHand = current.chooseCardToGoToHandAcroBike(g, topCards);
+        Card toHand = current.chooseToHandAcroBike(g, topCards);
         Card toDiscard = null;
         
         for (Card c: topCards)

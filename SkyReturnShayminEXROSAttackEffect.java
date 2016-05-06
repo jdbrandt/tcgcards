@@ -10,7 +10,7 @@ public class SkyReturnShayminEXROSAttackEffect extends AttackEffect
     public void activate(Game g)
     {
         doActiveDamage(g);
-        g.getCurrentPlayer().movePokemonAndAttachedToHand(g, g.getCurrentPlayer().getActive());
+        g.getCurrentPlayer().scoopUp(g, g.getCurrentPlayer().getActive());
     }
     
     public int getDamage(Game g)
